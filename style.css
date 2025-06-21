@@ -1,11 +1,355 @@
+:root {
+  --deafult-color: white;
+  --beige-color: #b47b48;
+  --dark-color: #272727;
+  --orange-color: #c85312;
+  --special-color: #ebad51;
+  --bg-dark-color: #202023;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: "Iner", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .quality-title {
   font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: var(--deafult-color);
+  text-align: center;
+  margin-top: 90px;
+}
+
+.header {
+  top: 55px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .traits-title {
   font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  width: 700px;
+  color: var(--deafult-color);
+  margin-bottom: 132px;
+}
+
+.footer-title {
+  font-family: "Italiana", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  color: var(--deafult-color);
+  width: 300px;
+  margin-bottom: 16px;
+}
+
+.location-title {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: var(--deafult-color);
+  margin-bottom: 44px;
+}
+
+.container {
+  width: 1156px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  gap: 15px;
+}
+
+.hero {
+  padding-top: 155px;
+  background-image: url("Images/photo_2022-06-05_13-14-26\ 1-Picsart-AiImageEnhancer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-link {
+  font-size: 24px;
+  line-height: auto;
+  color: var(--deafult-color);
+}
+
+.hero-title {
+  margin-top: 71px;
+  font-size: 70px;
+  line-height: auto;
+  margin-bottom: 22px;
+  letter-spacing: 0%;
+  font-weight: 200;
+  width: 630px;
+  color: var(--deafult-color);
+}
+
+.hero-text {
+  font-weight: 300;
+  font-size: 21px;
+  margin-bottom: 33px;
+  width: 570px;
+  color: var(--deafult-color);
+}
+
+.hero-button {
+  display: block;
+  background-color: var(--beige-color);
+  border-radius: 17px;
+  color: var(--deafult-color);
+  font-size: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 34px;
+  padding-right: 34px;
+  border-color: transparent;
+  margin-bottom: 125px;
+  font-weight: lighter;
+}
+
+.hero-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-item {
+  display: flex;
+  align-items: center;
+  background-color: var(--dark-color);
+  padding-left: 4px;
+  padding-right: 19px;
+  max-width: 310px;
+  height: 225px;
+  text-align: center;
+  margin-bottom: 33px;
+}
+
+.hero-item:hover {
+  display: flex;
+  align-items: center;
+  background-color: var(--special-color);
+  padding-left: 4px;
+  padding-right: 19px;
+  max-width: 310px;
+  height: 225px;
+  text-align: center;
+  margin-bottom: 33px;
+}
+
+.hero-item-title {
+  font-weight: 100;
+  font-size: 24px;
+  color: var(--deafult-color);
+}
+
+.hero-item-text {
+  font-size: 16px;
+  color: var(--deafult-color);
+  margin-top: 13px;
+  width: 130px;
+  margin-bottom: 35px;
+}
+
+.hero-item-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-item-button {
+  font-size: 16px;
+  border-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
+  background-color: var(--orange-color);
+  font-weight: 900;
+  color: var(--deafult-color);
+}
+
+.menu {
+  background-color: var(--bg-dark-color);
+}
+
+.menu-list {
+  display: flex;
+  gap: 90px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-div {
+  border: 1px solid var(--deafult-color);
+  width: 328px;
+}
+
+.menu-title {
+  font-size: 64px;
+  color: var(--deafult-color);
+  font-weight: 100;
+  text-align: center;
+}
+
+.menu-button {
+  text-align: center;
+}
+
+.menu-item {
+  text-align: center;
+}
+
+.menu-item-title {
+  color: var(--deafult-color);
+  font-size: 25px;
+}
+
+.menu-button {
+  font-size: 26px;
+  font-weight: 800;
+  padding: 4px 43px;
+  background-color: var(--beige-color);
+  border-radius: 17px;
+  border-color: transparent;
+  color: var(--deafu lt-color);
+  display: inline-block;
+  margin-top: 9px;
+  color: var(--deafult-color);
+}
+
+.quality {
+  padding-top: 104px;
+  background-color: var(--bg-dark-color);
+  background-image: url("Images/invincible.png");
+}
+
+.quality-ing {
+  background-color: rgb(95, 95, 95);
+  color: white;
+  width: 197px;
+  margin: auto;
+  height: 130px;
+  padding-left: 13px;
+  padding-top: 21px;
+}
+
+.quality-list {
+  display: flex;
+  justify-content: center;
+}
+
+.good-traits {
+  padding-top: 55px;
+  padding-bottom: 52px;
+  background-image: linear-gradient(to right, black 50%, transparent),
+    url("Images/photo_2022-06-23_21-45-36 1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.traits-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.traits-text {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: var(--deafult-color);
+}
+
+.traits-list:first-child {
+  padding-left: 22px;
+}
+
+.location {
+  padding-top: 66px;
+  padding-bottom: 50px;
+  background-color: var(--bg-dark-color);
+}
+
+.location-list-wraped {
+  display: flex;
+}
+
+.location-container {
+  display: flex;
+}
+
+.how-title {
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--deafult-color);
+  margin-bottom: 49px;
+}
+
+.how {
+  margin-top: 100px;
+  margin-left: 132px;
+}
+
+.when {
+  margin-top: 100px;
+  margin-right: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.socials {
+  color: var(--deafult-color);
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+.footer {
+  background-color: var(--bg-dark-color);
+}
+
+.footer-link {
+  display: block;
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--deafult-color);
+}
+
+.footer-text {
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--deafult-color);
+  margin-bottom: 41px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list-wraped {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  font-weight: 100;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 86px;
+}
+
+.location-img {
+  margin-bottom: 50px;
 }
